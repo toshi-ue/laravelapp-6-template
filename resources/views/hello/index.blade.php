@@ -9,11 +9,11 @@
 </head>
 <body>
    <h1>Blade/Index</h1>
-   @if ($msg != '')
+   @isset ($msg)
    <p>こんにちは、{{$msg}}さん。</p>
    @else
    <p>何か書いて下さい。</p>
-   @endif
+   @endisset
    <form method="POST" action="/hello">
        @csrf
        <input type="text" name="msg">
