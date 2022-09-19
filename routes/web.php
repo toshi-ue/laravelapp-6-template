@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\HelloController;
 use App\Http\Middleware\HelloMiddleware;
 
 Route::get('/', function () {
@@ -19,3 +20,5 @@ Route::get('/', function () {
 
 Route::get('hello', 'HelloController@index');
 Route::post('hello', 'HelloController@post');
+Route::get('hello/add', 'HelloController@add');
+Route::post('hello/add', 'HelloController@create');
