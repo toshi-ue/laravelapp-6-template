@@ -14,7 +14,9 @@
        <tr><th width="50px">id:</th>
        <td width="50px">{{$item->id}}</td>
        <th width="50px">name:</th>
-       <td>{{$item->name}}</td></tr>
+       <td>{{$item->name}}</td>
+       <th width="50px">mail:</th>
+       <td>{{$item->mail}}</td></tr>
        </table>
        @endforeach
    @endif
