@@ -4,4 +4,7 @@
     "[blade]": {
         "editor.autoClosingBrackets": "always"
     },
+    "emmet.includeLanguages": {
+        "blade": "html"
+    },
 }

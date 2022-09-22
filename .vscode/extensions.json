@@ -1,6 +1,17 @@
 {
   "recommendations": [
+    "onecentlin.laravel5-snippets",
+    "amiralizadeh9480.laravel-extra-intellisense",
     "onecentlin.laravel-blade",
-    "onecentlin.laravel5-snippets"
+    "ryannaddy.laravel-artisan",
+    "codingyu.laravel-goto-view",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "naoray.laravel-goto-components",
+    "shufo.vscode-blade-formatter",
+    "glitchbl.laravel-create-view",
+    "ihunte.laravel-blade-wrapper",
+    "damianbal.vs-phpclassgen",
+    "xdebug.php-debug"
   ]
 }
