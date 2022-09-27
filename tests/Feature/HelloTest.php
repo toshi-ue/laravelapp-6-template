@@ -2,21 +2,25 @@
 
 namespace Tests\Feature;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+// TODO: なぜこれが必要なのか?そしてなぜもともとあったコードを削除したのか?
+use Illuminate\Foundation\Testing\WithoutMiddleware;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class HelloTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     *
-     * @return void
-     */
-    public function testExample()
+    public function testHello()
     {
-        $response = $this->get('/');
+        $this->assertTrue(true);
 
-        $response->assertStatus(200);
+        $arr = [];
+        $this->assertEmpty($arr);
+
+        $msg = "Hello";
+        $this->assertEquals('Hello', $msg);
+
+        $n = random_int(0, 100);
+        $this->assertLessThan(100, $n);
     }
 }
