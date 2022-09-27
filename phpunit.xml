@@ -26,5 +26,7 @@
         <server name="MAIL_DRIVER" value="array"/>
         <server name="QUEUE_CONNECTION" value="sync"/>
         <server name="SESSION_DRIVER" value="array"/>
+        <!-- 今回はSQLiteを使用しているためファイルのパスを追記。MySQLやPostgreSQLの場合は使用するデータベース名を指定するだけでok -->
+        <env name="DB_DATABASE" value="database/database_test.sqlite"/>
     </php>
 </phpunit>

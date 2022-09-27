@@ -26,3 +26,13 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+// TODO: なぜ別ファイルを作成してそこに記述しないのか?
+// TODO: なぜuse を追記しなくても動作するのか?
+$factory->define(App\Person::class, function (Faker $faker) {
+    return [
+        'name' => $faker->name,
+        'mail' => $faker->safeEmail,
+        'age' => random_int(1, 99),
+    ];
+});
