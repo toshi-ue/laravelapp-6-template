@@ -1,17 +1,20 @@
+// [【2022年決定版】VSCodeをLaravel超特化型にする 最高の拡張機能10選まとめ。 【VisualStudio Code】【プラグイン】 | ゆるプロ](https://yurupro.cloud/2132/)
+// [Laravelで気持ちよく開発をするための拡張機能のまとめ - Qiita](https://qiita.com/motuo/items/5c9b24606ef75535f882)
+// [LaravelのVSCodeを使った開発で、保存時にコードを自動整形する - Qiita](https://qiita.com/kunrenyouAcount/items/c27e6ddf82ace12cb9f1)
 {
-  "recommendations": [
-    "onecentlin.laravel5-snippets",
-    "amiralizadeh9480.laravel-extra-intellisense",
-    "onecentlin.laravel-blade",
-    "ryannaddy.laravel-artisan",
-    "codingyu.laravel-goto-view",
-    "mikestead.dotenv",
-    "editorconfig.editorconfig",
-    "naoray.laravel-goto-components",
-    "shufo.vscode-blade-formatter",
-    "glitchbl.laravel-create-view",
-    "ihunte.laravel-blade-wrapper",
-    "damianbal.vs-phpclassgen",
-    "xdebug.php-debug"
-  ]
+    "recommendations": [
+        "onecentlin.laravel5-snippets",
+        "amiralizadeh9480.laravel-extra-intellisense",
+        "onecentlin.laravel-blade",
+        "ryannaddy.laravel-artisan",
+        "codingyu.laravel-goto-view",
+        "mikestead.dotenv",
+        "editorconfig.editorconfig",
+        "naoray.laravel-goto-components",
+        "shufo.vscode-blade-formatter",
+        "glitchbl.laravel-create-view",
+        "ihunte.laravel-blade-wrapper",
+        "damianbal.vs-phpclassgen",
+        "xdebug.php-debug"
+    ]
 }
